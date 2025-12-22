@@ -32,6 +32,15 @@
         "vue-router": "^4.5.1"
     },
     "devDependencies": {
+        "lint-staged": "^16.2.7",
+        "simple-git-hooks": "^2.13.1",
         "typescript": "^5.9.3"
+    },
+    "simple-git-hooks": {
+        "pre-commit": "npx lint-staged",
+        "commit-msg": "node scripts/verify-commit.js"
+    },
+    "lint-staged": {
+        "*": "eslint --fix"
     }
 }
