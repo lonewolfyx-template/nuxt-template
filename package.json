@@ -1,7 +1,11 @@
 {
-    "name": "nuxt-template",
+    "name": "pkg-placeholder",
     "type": "module",
-    "private": true,
+    "description": "_description_",
+    "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
+    "bugs": {
+        "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
+    },
     "scripts": {
         "build": "nuxt build",
         "dev": "nuxt dev",
@@ -40,6 +44,7 @@
         "pre-commit": "npx lint-staged",
         "commit-msg": "node scripts/verify-commit.js"
     },
+    "license": "MIT",
     "lint-staged": {
         "*": "eslint --fix"
     }
