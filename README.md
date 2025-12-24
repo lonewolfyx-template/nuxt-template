@@ -1,6 +1,6 @@
-# Nuxt Minimal Starter
+# pkg-placeholder
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+_description_
 
 ## Setup
 
