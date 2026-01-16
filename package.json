@@ -2,6 +2,7 @@
     "name": "pkg-placeholder",
     "type": "module",
     "description": "_description_",
+    "packageManager": "pnpm@10.15.1",
     "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
     "bugs": {
         "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
