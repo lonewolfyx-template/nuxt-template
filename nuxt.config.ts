@@ -14,6 +14,21 @@ export default defineNuxtConfig({
         enabled: true,
     },
 
+    app: {
+        head: {
+            viewport: 'width=device-width,initial-scale=1',
+            link: [
+                { rel: 'icon', href: '/favicon.ico', sizes: 'any' },
+                { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' },
+                { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+            ],
+            meta: [
+                { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+                { name: 'apple-mobile-web-app-status-bar-style', content: 'black-translucent' },
+            ],
+        },
+    },
+
     css: [
         '~/assets/css/tailwind.css',
     ],
