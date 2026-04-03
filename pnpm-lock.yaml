@@ -61,7 +61,7 @@ importers:
         specifier: ^1.1.1
         version: 1.1.1
       shadcn-nuxt:
-        specifier: ^2.4.3
+        specifier: ~2.4.3
         version: 2.4.3(magicast@0.5.1)
       simple-git-hooks:
         specifier: ^2.13.1
