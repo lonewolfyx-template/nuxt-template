@@ -31,10 +31,10 @@
     },
     "devDependencies": {
         "@nuxt/content": "^3.10.0",
-        "@nuxt/eslint": "^1.12.1",
+        "@nuxt/eslint": "^1.15.2",
         "@nuxt/icon": "^2.1.1",
         "@vueuse/nuxt": "^14.1.0",
-        "eslint": "^9.39.2",
+        "eslint": "^10.1.0",
         "lint-staged": "^16.2.7",
         "nuxt": "^4.2.2",
         "picocolors": "^1.1.1",
