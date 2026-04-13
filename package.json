@@ -1,8 +1,9 @@
 {
     "name": "pkg-placeholder",
     "type": "module",
-    "description": "_description_",
     "packageManager": "pnpm@10.33.0",
+    "description": "_description_",
+    "license": "MIT",
     "homepage": "https://github.com/lonewolfyx/pkg-placeholder",
     "bugs": {
         "url": "https://github.com/lonewolfyx/pkg-placeholder/issues"
@@ -29,11 +30,13 @@
         "vue-router": "^4.6.4"
     },
     "devDependencies": {
+        "@antfu/eslint-config": "^8.2.0",
         "@nuxt/content": "^3.12.0",
         "@nuxt/eslint": "^1.15.2",
         "@nuxt/icon": "^2.2.1",
         "@vueuse/nuxt": "^14.2.1",
         "eslint": "^10.1.0",
+        "jiti": "^2.6.1",
         "lint-staged": "^16.4.0",
         "nuxt": "^4.4.2",
         "picocolors": "^1.1.1",
@@ -47,7 +50,6 @@
         "pre-commit": "npx lint-staged",
         "commit-msg": "node scripts/verify-commit.js"
     },
-    "license": "MIT",
     "lint-staged": {
         "*": "eslint --fix"
     }
