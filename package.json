@@ -37,7 +37,7 @@
         "@vueuse/nuxt": "^14.2.1",
         "eslint": "^10.1.0",
         "jiti": "^2.6.1",
-        "lint-staged": "^16.4.0",
+        "nano-staged": "^1.0.2",
         "nuxt": "^4.4.2",
         "picocolors": "^1.1.1",
         "shadcn-nuxt": "~2.4.3",
@@ -47,10 +47,10 @@
         "typescript": "^5.9.3"
     },
     "simple-git-hooks": {
-        "pre-commit": "npx lint-staged",
+        "pre-commit": "npx nano-staged",
         "commit-msg": "node scripts/verify-commit.js"
     },
-    "lint-staged": {
+    "nano-staged": {
         "*": "eslint --fix"
     }
 }
